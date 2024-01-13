@@ -3,7 +3,7 @@
 #include<cstdio>
 #include<cstdlib>
 #include<ctime>
-#include<conio.h>
+//#include<conio.h>
 #include<stdlib.h>
 using namespace std;
 class student
@@ -52,7 +52,7 @@ public:
             result = 'F';
     }
     void printdata()
-    {
+    {   
         cout<<"                              -------------------------------";
         cout<<"\n                               STUDENT ID   : "<<stu_id;
         cout<<"\n                               NAME         : "<<name;
